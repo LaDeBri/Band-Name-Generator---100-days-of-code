@@ -1,0 +1,11 @@
+print("Say hello to your future child's name generator!")
+Name_wife = input("What is your wife's name?\n")
+Name_husband = input ("What is your husband's name?\n")
+
+print("Your future child's name could be" + " " + Name_wife + Name_husband)
+
+become_parent = input("Are you excited to become a parent? Say yes or no").lower()
+if become_parent == "yes":
+print(Congratulations)
+else:
+print(sorry)
